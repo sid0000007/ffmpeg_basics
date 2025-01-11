@@ -34,7 +34,7 @@ export const metadata: Metadata = {
       "Transform your pictures and audio into professional videos with our free online converter. Simple, fast, and no registration required.",
     images: [
       {
-        url: "https://drive.google.com/file/d/1Cm5faFCSqUhQTyGp_bo8XEwjzTW-ygu0/view?usp=sharing", // You should host the image on your domain instead of Google Drive
+        url: "/ffmpeg.png", // You should host the image on your domain instead of Google Drive
         width: 1200,
         height: 630,
         alt: "Picture to Video Converter Interface",
@@ -47,9 +47,7 @@ export const metadata: Metadata = {
     description:
       "Create videos from your pictures and audio files. Easy-to-use online converter with instant results.",
     creator: "@ffmpegmp3", // Replace with your actual Twitter handle if you have one
-    images: [
-      "https://drive.google.com/file/d/1Cm5faFCSqUhQTyGp_bo8XEwjzTW-ygu0/view?usp=sharing",
-    ], // Same image as OG
+    images: ["/ffmpeg.png"], // Same image as OG
   },
   robots: {
     index: true,
@@ -68,10 +66,10 @@ export const metadata: Metadata = {
     canonical: "https://ffmpegmp3.vercel.app",
   },
   category: "technology",
-  verification: {
-    google: "Add-your-google-search-console-verification-code",
-    yandex: "Add-your-yandex-verification-code-if-needed",
-  },
+  // verification: {
+  //   google: "Add-your-google-search-console-verification-code",
+  //   yandex: "Add-your-yandex-verification-code-if-needed",
+  // },
   other: {
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-title": "Video Converter",
